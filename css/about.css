@@ -1,0 +1,18 @@
+/* strat about-tour */
+.about-tour {
+  padding: 70px 0;
+}
+/* end about-tour */
+/* start team */
+.team,
+.tour-video {
+  padding: 70px 0;
+}
+.team img {
+  border-radius: 20px;
+}
+.team-detail h3 {
+  font-family: "Source Serif 4", serif;
+  font-size: 20px;
+}
+/* end team */

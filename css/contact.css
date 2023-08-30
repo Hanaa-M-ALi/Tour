@@ -1,0 +1,46 @@
+textarea.form-control {
+  height: auto;
+}
+button.submit {
+  background-color: var(--main-color);
+  color: #fff;
+  border-color: var(--main-color);
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+button.submit:hover {
+  background: #1f425c;
+  color: #fff;
+}
+.contact-info {
+  padding: 20px 0 70px;
+}
+.contact-info .widget {
+  padding: 25px 15px;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+.contact-info .widget li {
+  margin-bottom: 50px;
+}
+.contact-info .widget span::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #dbdcdc;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.contact-info .widget span svg {
+  font-size: 32px;
+}
+.contact-info .widget a {
+  display: block;
+  margin-left: 30px;
+  color: #000;
+  font-size: 20px;
+}
